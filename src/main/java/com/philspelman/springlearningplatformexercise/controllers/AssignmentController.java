@@ -15,7 +15,9 @@ public class AssignmentController {
         model.addAttribute("chapter", chapter);
         model.addAttribute("assignmentNumber", assignmentNumber);
         Boolean checked = false;
+        String comments = "";
         model.addAttribute("checked", checked);
+        model.addAttribute("comments", comments);
 
         return "assignment";
     }
